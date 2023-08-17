@@ -2,7 +2,7 @@ forEach: ModelElements
 fileName: typeDefs.js
 path: apollo-graphQL/src/graphql
 ---
-
+import {gql} from 'apollo-server';
 
 const typeDefs = gql`
     scalar Date
