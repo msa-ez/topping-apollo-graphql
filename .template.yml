@@ -4,4 +4,5 @@ imageUrl: https://github.com/msa-ez/template-axon2/assets/130956306/316f539b-f47
 templateName: apollo-graphql
 description: Open-source library and framework used to efficiently manage data requests and responses, and to streamline and optimize data flow between the frontend and backend.
 depends:
-tags: Data Projection
+tags:
+  - Data Projection
