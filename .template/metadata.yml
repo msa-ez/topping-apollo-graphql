@@ -1,7 +1,6 @@
 name: Apollo graphql
 rating: 5
 imageUrl: https://github.com/msa-ez/template-axon2/assets/130956306/316f539b-f474-4135-9785-3d2cb821e132
-templateName: apollo-graphql
 description: Open-source library and framework used to efficiently manage data requests and responses, and to streamline and optimize data flow between the frontend and backend.
 depends:
 tags:
