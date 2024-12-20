@@ -14,7 +14,7 @@ const server = new ApolloServer({
     resolvers,
     dataSources: () => ({
 {{#boundedContextes}}
-        {{nameCamelCase}}RestApi: new {{namePascalCase}}}RestApi(),
+        {{nameCamelCase}}RestApi: new {{namePascalCase}}RestApi(),
 {{/boundedContextes}}
     }),
 });

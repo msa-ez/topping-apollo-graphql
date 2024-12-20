@@ -1,4 +1,4 @@
-forEach: ModelElements
+forEach: Model
 fileName: resolvers.js
 path: apollo-graphQL/src/graphql
 ---
