@@ -7,7 +7,7 @@ const resolvers = {
     {{#aggregates}}
     {{name}}: {
         // set Query
-    }
+    },
     {{/aggregates}}
 {{/boundedContextes}}
 
@@ -21,11 +21,6 @@ const resolvers = {
             return dataSources.{{../nameCamelCase}}RestApi.get{{#toPascalCase namePlural}} {{/toPascalCase}}();
         },
     {{/aggregates}}
-{{/boundedContextes}}
-    }
-};
-
-export default resolvers;
 
 <function>
     window.$HandleBars.registerHelper('toPascalCase', function (str) {
